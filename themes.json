@@ -378,7 +378,7 @@
         "authelia-sonarr-logo": "https://owlbertz.github.io\n/css/addons/authelia/authelia-sonarr-logo/authelia-sonarr-logo.css?sha=e0a3caf5cac76ae728180fcae832448c",
         "authelia-traefik-logo": "https://owlbertz.github.io\n/css/addons/authelia/authelia-traefik-logo/authelia-traefik-logo.css?sha=1631bb574d92a53bf88a364fe9eee6f5"
       },
-      "base_css": "https://owlbertz.github.io\n/css/base/authelia/authelia-base.css?sha=a0d721de5f05d2438d26593fbd4f8cdd"
+      "base_css": "https://owlbertz.github.io\n/css/base/authelia/authelia-base.css?sha=3b5f992cb159c4084b2e1b57e3025198"
     },
     "bazarr": {
       "addons": {
