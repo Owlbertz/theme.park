@@ -146,7 +146,7 @@ def create_theme_options() -> None:
     def create_css(theme, theme_type="standard"):
         folder = "./css/base"
         with open(f"{folder}/{app}/{theme.lower()}.css", "w") as create_app:
-            content = f'@import url("/css/base/{app}/{app}-base.css?sha={get_md5_hash(join(getcwd(),"css","base",app,f"{app}-base.css"))}");\n@import url("/css/{"theme-options" if theme_type=="standard" else "community-theme-options"}/{theme.lower()}.css?sha={get_md5_hash(join(getcwd(),"css","theme-options",f"{theme.lower()}.css")) if theme_type=="standard" else get_md5_hash(join(getcwd(),"css","community-theme-options",f"{theme.lower()}.css"))}");'
+            content = f'@import url("/theme.park/css/base/{app}/{app}-base.css?sha={get_md5_hash(join(getcwd(),"css","base",app,f"{app}-base.css"))}");\n@import url("/theme.park/css/{"theme-options" if theme_type=="standard" else "community-theme-options"}/{theme.lower()}.css?sha={get_md5_hash(join(getcwd(),"css","theme-options",f"{theme.lower()}.css")) if theme_type=="standard" else get_md5_hash(join(getcwd(),"css","community-theme-options",f"{theme.lower()}.css"))}");'
             create_app.write(content)
     with open("themes.json") as themes:
         data = load(themes)
