@@ -533,3 +533,11 @@ input[class*="-otpDigitInput"]:focus {
 .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
     background-color: rgb(var(--accent-color));
 }
+
+.bg-primary, .text-primary {
+    background: rgb(var(--accent-color));
+}
+
+a[href="https://www.authelia.com"] {
+    display: none;
+}
