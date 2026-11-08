@@ -562,3 +562,16 @@ a[href="https://www.authelia.com"] {
 #logout-button {
     color: #ddd;
 }
+
+#password-textfield::placeholder,
+#username-textfield::placeholder {
+    visibility: hidden:
+}
+
+#switch-user-button {
+    color: inherit;
+}
+
+#openid-consent-deny {
+    background: var(--secondary);
+}
