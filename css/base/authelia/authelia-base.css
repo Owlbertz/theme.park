@@ -574,4 +574,5 @@ a[href="https://www.authelia.com"] {
 
 #openid-consent-deny {
     background: var(--secondary);
+    color: inherit;
 }
