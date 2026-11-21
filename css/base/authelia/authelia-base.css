@@ -565,7 +565,7 @@ a[href="https://www.authelia.com"] {
 
 #password-textfield::placeholder,
 #username-textfield::placeholder {
-    visibility: hidden:
+    visibility: hidden;
 }
 
 #switch-user-button {
